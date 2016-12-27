@@ -10,6 +10,7 @@ const {
 const DEFAULT_EXPIRES = Ember.testing === true ? 1 : 1000 * 5; // 5s
 
 export default Obj.extend({
+  isServiceFactory: true,
   _isSustainFactory: true,
 
   sustainService: null,

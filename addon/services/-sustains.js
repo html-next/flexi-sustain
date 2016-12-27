@@ -1,8 +1,8 @@
 import Ember from 'ember';
 import SustainModel from '../lib/sustain';
-import getOwner from 'ember-getowner-polyfill';
 
 const {
+  getOwner,
   Service
   } = Ember;
 
