@@ -1,16 +1,21 @@
 import { test } from 'qunit';
 import moduleForAcceptance from '../../tests/helpers/module-for-acceptance';
+import lessThanEmberVersion from '../../tests/helpers/less-than-ember-version';
 
-moduleForAcceptance('Acceptance | sustain missing layout');
+// Sustain is not compatible with glimmer 2 yet
+if (lessThanEmberVersion(2, 10)) {
 
-test('Testing that sustain can be used with components without an explicit layout.', function(assert) {
-  visit('/tests/sustain-no-layout');
+  moduleForAcceptance('Acceptance | sustain missing layout');
 
-  andThen(function() {
-    assert.equal(currentURL(), '/tests/sustain-no-layout');
+  test('Testing that sustain can be used with components without an explicit layout.', function(assert) {
+    visit('/tests/sustain-no-layout');
 
-    let text = find('h1').text();
-    assert.equal(text, 'Rendered!', 'We rendered the missing layout');
+    andThen(function() {
+      assert.equal(currentURL(), '/tests/sustain-no-layout');
+
+      let text = find('h1').text();
+      assert.equal(text, 'Rendered!', 'We rendered the missing layout');
+    });
   });
-});
+}
 
