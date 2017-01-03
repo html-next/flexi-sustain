@@ -1,10 +1,10 @@
 import { test } from 'qunit';
 import Ember from 'ember';
 import moduleForAcceptance from '../../tests/helpers/module-for-acceptance';
-import lessThanEmberVersion from '../../tests/helpers/less-than-ember-version';
+import hasEmberVersion from 'ember-test-helpers/has-ember-version';
 
 // Sustain is not compatible with glimmer 2 yet
-if (lessThanEmberVersion(2, 10)) {
+if (!hasEmberVersion(2, 10)) {
 
   const {
     run
