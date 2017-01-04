@@ -63,6 +63,15 @@ expiration. A value of `0` will cause the sustain to live forever.
 {{sustain <path-to-sustain> expires=<time-in-ms>}}
 ```
 
+If you would like to use the same layout for multiple sustain instances, on the same page, you can specify
+a `label`. This allows unique instances of the same layout, which update from route to route or layout to layout,
+but do not overwrite previous sustains in the same template.
+
+```hbs
+{{sustain my-path label='foo'}}
+{{sustain my-path label='bar'}}
+```
+
 
 ## Contributing
 
