@@ -1,16 +1,12 @@
-import Ember from 'ember';
+import Component from 'ember-component';
 import layout from '../templates/components/flexi-sustain';
-
-const {
-  Component,
-  inject
-  } = Ember;
+import service from 'ember-service/inject';
 
 const component = Component.extend({
   layout,
   tagName: '',
 
-  sustains: inject.service('-sustains'),
+  sustains: service('-sustains'),
 
   label: null,
   model: null,

@@ -2,14 +2,10 @@ import { test } from 'qunit';
 import Ember from 'ember';
 import moduleForAcceptance from '../../tests/helpers/module-for-acceptance';
 import hasEmberVersion from 'ember-test-helpers/has-ember-version';
+const { run, View } = Ember;
 
 // Sustain is not compatible with glimmer 2 yet
 if (!hasEmberVersion(2, 10)) {
-
-  const {
-    run
-  } = Ember;
-
   moduleForAcceptance('Acceptance | sustain hooks');
 
   test('Testing sustain-hooks', function(assert) {
@@ -18,7 +14,7 @@ if (!hasEmberVersion(2, 10)) {
     andThen(() => {
       assert.equal(currentURL(), '/tests/sustain-hooks');
 
-      let registry = this.application.__container__.lookup('-view-registry:main') || Ember.View.views;
+      let registry = this.application.__container__.lookup('-view-registry:main') || View.views;
       let component = registry['sustain-hooks-test'];
 
       assert.equal(component.get('didMoveTriggeredCount'), 1, 'didMove triggers on initial insert');

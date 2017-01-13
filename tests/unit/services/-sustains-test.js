@@ -1,5 +1,5 @@
 import { moduleFor, test } from 'ember-qunit';
-import Ember from 'ember';
+import run from 'ember-runloop';
 
 moduleFor('service:-sustains', 'Unit | Service | -sustains', {});
 
@@ -7,7 +7,7 @@ moduleFor('service:-sustains', 'Unit | Service | -sustains', {});
 test('it exists', function(assert) {
   assert.expect(1);
 
-  Ember.run(() => {
+  run(() => {
     let service = this.subject();
     assert.ok(service);
   });

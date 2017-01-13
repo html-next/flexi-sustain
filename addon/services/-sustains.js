@@ -1,10 +1,7 @@
-import Ember from 'ember';
-import SustainModel from '../lib/sustain';
+import getOwner from 'ember-owner/get';
+import Service from 'ember-service';
 
-const {
-  getOwner,
-  Service
-  } = Ember;
+import SustainModel from '../lib/sustain';
 
 export default Service.extend({
 

@@ -1,11 +1,9 @@
 import Ember from 'ember';
+import Obj from 'ember-object';
+import run from 'ember-runloop';
+
 import appendRange from '../utils/dom/append-range';
 import appendCachedRange from '../utils/dom/append-cached-range';
-
-const {
-  run,
-  Object: Obj
-  } = Ember;
 
 const DEFAULT_EXPIRES = Ember.testing === true ? 1 : 1000 * 5; // 5s
 
