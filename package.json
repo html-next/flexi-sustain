@@ -61,7 +61,7 @@
   },
   "ember-addon": {
     "versionCompatibility": {
-      "ember": ">=1.13.13"
+      "ember": ">=1.13.13 <=2.9"
     },
     "configPath": "tests/dummy/config"
   }
