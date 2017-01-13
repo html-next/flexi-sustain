@@ -42,26 +42,19 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "layout",
-    "responsive",
-    "cross-platform",
     "ember",
-    "flexbox",
-    "grid",
+    "ember-addon",
     "recycle",
     "recycling",
-    "ember-addon"
+    "sustain"
   ],
   "dependencies": {
-    "broccoli-funnel": "^1.0.1",
-    "broccoli-merge-trees": "^1.1.1",
     "broccoli-plugin": "^1.2.1",
     "chalk": "^1.1.1",
     "debug": "^2.2.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-preprocess-registry": "^3.0.0",
-    "ember-cli-sass": "^6.0.0",
     "ember-getowner-polyfill": "^1.1.1",
     "object-assign": "^4.0.1",
     "rsvp": "^3.2.0"
@@ -70,7 +63,6 @@
     "versionCompatibility": {
       "ember": ">=1.13.13"
     },
-    "configPath": "tests/dummy/config",
-    "defaultBlueprint": "flexi"
+    "configPath": "tests/dummy/config"
   }
 }

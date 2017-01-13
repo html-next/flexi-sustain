@@ -1,1 +1,1 @@
-export { default, initialize } from 'flexi/instance-initializers/-sustains';
+export { default, initialize } from 'flexi-sustain/instance-initializers/-sustains';

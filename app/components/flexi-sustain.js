@@ -1,1 +1,1 @@
-export { default } from 'flexi/components/flexi-sustain';
+export { default } from 'flexi-sustain/components/flexi-sustain';

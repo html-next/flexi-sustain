@@ -1,1 +1,1 @@
-export { default, initialize } from 'flexi/initializers/-sustains';
+export { default, initialize } from 'flexi-sustain/initializers/-sustains';

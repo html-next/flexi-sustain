@@ -1,1 +1,1 @@
-export { default } from 'flexi/services/-sustains';
+export { default } from 'flexi-sustain/services/-sustains';
