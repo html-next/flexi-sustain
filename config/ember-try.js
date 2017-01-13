@@ -40,37 +40,15 @@ module.exports = {
       }
     },
     {
-      name: 'ember-release',
+      name: 'ember-2.9',
       bower: {
         dependencies: {
-          'ember': 'components/ember#release'
+          'ember': '~2.9'
         },
         resolutions: {
-          'ember': 'release'
+          'ember': '~2.9'
         }
       }
     },
-    {
-      name: 'ember-beta',
-      bower: {
-        dependencies: {
-          'ember': 'components/ember#beta'
-        },
-        resolutions: {
-          'ember': 'beta'
-        }
-      }
-    },
-    {
-      name: 'ember-canary',
-      bower: {
-        dependencies: {
-          'ember': 'components/ember#canary'
-        },
-        resolutions: {
-          'ember': 'canary'
-        }
-      }
-    }
   ]
 };
