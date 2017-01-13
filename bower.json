@@ -1,8 +1,8 @@
 {
-  "name": "flexi",
+  "name": "flexi-sustain",
   "dependencies": {
-    "ember": "~2.8.0",
-    "ember-cli-shims": "0.1.1",
+    "ember": "~2.9.0",
+    "ember-cli-shims": "0.1.3",
     "hammer-time": "1.0.0"
   }
 }

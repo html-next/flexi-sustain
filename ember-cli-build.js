@@ -12,7 +12,6 @@ module.exports = function(defaults) {
      babel: {
       includePolyfill: true
     },
-    sassOptions: {},
     hinting: true
   });
 
