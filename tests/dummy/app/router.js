@@ -20,23 +20,7 @@ Router.map(function() {
     this.route('sustain-classic-component');
   });
 
-  this.route('docs', function() {
-    this.route('index', { path: '/' });
-    this.route('overview');
-    this.route('sustain');
-    this.route('installation');
-    this.route('blueprints');
-    this.route('settings');
-  });
-
-  this.route('guides', function() {
-    this.route('overview', { path: '/' });
-  });
-
   this.route('classic-layout-test');
-  this.route('faq', function() {
-    this.route('css-frameworks');
-  });
 });
 
 export default Router;
