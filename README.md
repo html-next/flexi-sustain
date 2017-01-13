@@ -16,16 +16,6 @@
 ember install flexi-sustain
 ```
 
-That's all that required if you're using the classic component layout. If you are using a _pod_-based structure you will also need to install the shim for `ember-app`. This is done by modifiying your  `ember-cli-build.js` file. This shim makes ember-cli's template tree able to find
-the templates for layouts.
-
-```js
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
-var shim = require('flexi/lib/pod-templates-shim');
-
-shim(EmberApp);
-```
-
 
 ## Support, Questions, Collaboration
 
@@ -76,7 +66,7 @@ but do not overwrite previous sustains in the same template.
 ## Contributing
 
  - Open an Issue for discussion first if you're unsure a feature/fix is wanted.
- - Branch off of `develop` (default branch)
+ - Branch off of `master` (default branch)
  - Use descriptive branch names (e.g. `<type>/<short-description>`)
  - Use [Angular Style Commits](https://github.com/angular/angular.js/blob/v1.4.8/CONTRIBUTING.md#commit)
  - PR against `develop` (default branch).
