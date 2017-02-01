@@ -1,6 +1,6 @@
 {
-  "name": "flexi-sustain",
-  "version": "1.2.0",
+  "name": "@html-next/flexi-sustain",
+  "version": "2.0.0-beta.1",
   "description": "Extended Lifecycles and Recycling for Ember Components",
   "keywords": [
     "ember",
