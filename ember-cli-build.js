@@ -1,7 +1,8 @@
-/*jshint node:true*/
-/* global require, module */
-var path = require('path');
-var EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
+/* eslint-env node */
+'use strict';
+
+const path = require('path');
+const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
 
@@ -9,7 +10,7 @@ module.exports = function(defaults) {
   defaults.snippetPaths = ['tests/dummy/snippets'];
 
   var app = new EmberAddon(defaults, {
-     babel: {
+     'ember-cli-babel': {
       includePolyfill: true
     },
     hinting: true

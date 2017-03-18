@@ -1,5 +1,4 @@
-/* jshint node: true */
-/* global require */
+/* eslint-env node */
 'use strict';
 
 var SustainConversion = require('./dsl/sustain-conversion');
@@ -48,7 +47,9 @@ module.exports = {
     registry.add('htmlbars-ast-plugin', {
       name: "flexi-sustain-conversion",
       plugin: SustainConversion,
-      baseDir: function() { return __dirname; }
+      baseDir: function() {
+        return __dirname;
+      }
     });
   }
 };
