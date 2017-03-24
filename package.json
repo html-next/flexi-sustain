@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "ember-cli-babel": "^6.0.0-beta.7",
+    "ember-cli-babel": "^6.0.0-beta.9",
     "ember-cli-htmlbars": "^1.1.1",
     "ember-cli-preprocess-registry": "^3.0.0",
     "ember-getowner-polyfill": "^1.1.1",
