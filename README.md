@@ -1,5 +1,7 @@
 # Flexi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/html-next/flexi-sustain.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/flexi-sustain.svg)](http://badge.fury.io/js/flexi-sustain)
 [![Ember Observer Score](http://emberobserver.com/badges/flexi-sustain.svg)](http://emberobserver.com/addons/flexi-sustain)
 [![Build Status](https://travis-ci.org/html-next/flexi-sustain.svg)](https://travis-ci.org/html-next/flexi-sustain)
